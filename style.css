@@ -1,0 +1,158 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #f7f7f7;
+}
+.wrapper {
+  width: 100%;
+}
+#survival {
+  background-color: #02160b;
+}
+#main {
+  background-color: #cccccc;
+}
+.hero {
+  width: 1440px;
+  height: 779px;
+  background-image: url(assets/pictures/Rectangle.png);
+  margin: 0 auto;
+}
+header {
+  width: 1200px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  margin: 19px 120px 0 120px;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 240px;
+  height: 60px;
+  justify-content: space-between;
+}
+span {
+  width: 155px;
+  height: 60px;
+  font-size: 32px;
+  line-height: 60px;
+}
+nav {
+  width: 480px;
+  height: 60px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+a {
+  display: block;
+  color: #f7f7f7;
+  text-decoration: none;
+  font-size: 23px;
+}
+li {
+  display: block;
+  height: 60px;
+  line-height: 60px;
+}
+h1 {
+  font-size: 48px;
+  color: #cd6326;
+  line-height: 72px;
+  letter-spacing: 2px;
+  margin-bottom: 51px;
+}
+p {
+  width: 274px;
+  height: 108px;
+  text-align: justify;
+}
+article {
+  width: 274px;
+  height: 340px;
+  margin: 120px 1046px 240px 120px;
+}
+main {
+  width: 1440px;
+  height: 1368px;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 48px;
+  color: #333333;
+}
+.sub {
+  font-size: 24px;
+  color: #666666;
+}
+h3 {
+  font-size: 27px;
+  color: #333333;
+}
+
+.button {
+  width: 160px;
+  background-color: #cd6326;
+  height: 60px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 23px;
+  line-height: 60px;
+  text-align: center;
+}
+.right {
+  transform: scaleX(-1);
+}
+.button2 {
+  width: 120px;
+  height: 60px;
+  line-height: 60px;
+}
+#footer {
+  background-color: #181617;
+}
+footer {
+  width: 1440px;
+  height: 359px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  background-image: url(assets/pictures/footer.jpg);
+}
+.footerContent {
+  width: 1200px;
+  height: 60px;
+  margin: 150px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerNav {
+  width: 480px;
+  height: 60px;
+}
+.socials {
+  width: 240px;
+  height: 40px;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  background-color: #f7f7f7;
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
