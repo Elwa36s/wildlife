@@ -4,6 +4,14 @@ body {
   width: 100%;
   color: #f7f7f7;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
 .wrapper {
   width: 100%;
 }
@@ -36,12 +44,13 @@ header {
   height: 60px;
   justify-content: space-between;
 }
-span {
+h1 {
   width: 155px;
   height: 60px;
   font-size: 32px;
   line-height: 60px;
 }
+
 nav {
   width: 480px;
   height: 60px;
@@ -65,7 +74,7 @@ li {
   height: 60px;
   line-height: 60px;
 }
-h1 {
+h2 {
   font-size: 48px;
   color: #cd6326;
   line-height: 72px;
@@ -87,19 +96,33 @@ main {
   height: 1368px;
   margin: 0 auto;
 }
-h2 {
+h3 {
   font-size: 48px;
   color: #333333;
+  text-align: center;
+  margin: 0;
 }
 .sub {
   font-size: 24px;
   color: #666666;
+  margin-top: 20px;
 }
-h3 {
+.secondTitle {
+  width: 332px;
+  height: 128px;
+  margin: 120px auto;
+}
+h4 {
   font-size: 27px;
   color: #333333;
+  text-align: center;
+  margin-top: 239px;
 }
-
+button {
+  border: none;
+  background-color: unset;
+  color: #f7f7f7;
+}
 .button {
   width: 160px;
   background-color: #cd6326;
@@ -110,13 +133,70 @@ h3 {
   line-height: 60px;
   text-align: center;
 }
+.buttonInput {
+  width: 120px;
+  height: 60px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
 .right {
   transform: scaleX(-1);
+}
+.slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+h5 {
+  font-size: 22px;
+  margin: 0 auto;
+}
+h6 {
+  font-size: 17px;
+  margin: 0;
+  margin-top: 10px;
+}
+.description {
+  position: relative;
+  top: -113px;
+  height: 73px;
+  width: fit-content;
+  text-align: center;
+  margin: 0 auto;
 }
 .button2 {
   width: 120px;
   height: 60px;
   line-height: 60px;
+}
+.getNotified {
+  width: 661px;
+  height: 162px;
+  margin: 0 auto;
+}
+.input {
+  margin-top: 59px;
+  display: flex;
+  flex-direction: row;
+}
+.inputArea {
+  border: solid 1px #666666;
+  border-right: unset;
+  width: 540px;
+  height: 60px;
+  padding: 0 15px;
+}
+input {
+  width: 510px;
+  height: 60px;
+  background-color: unset;
+  border: unset;
+  padding: 0;
+  margin: 0 auto;
+}
+input:focus,
+input:active {
+  outline: 0;
 }
 #footer {
   background-color: #181617;
@@ -155,4 +235,13 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.logo {
+  width: 155px;
+  height: 60px;
+  font-size: 32px;
+  line-height: 60px;
+  color: #f7f7f7;
+  margin: 0;
+  text-align: left;
 }
