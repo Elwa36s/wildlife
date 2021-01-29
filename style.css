@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   width: 100%;
   color: #f7f7f7;
+  font-family: 'Roboto', sans-serif;
 }
 h1,
 h2,
@@ -21,6 +22,7 @@ h6 {
 #main {
   background-color: #cccccc;
 }
+
 .hero {
   width: 1440px;
   height: 779px;
@@ -122,6 +124,9 @@ button {
   border: none;
   background-color: unset;
   color: #f7f7f7;
+}
+button:hover {
+  cursor: pointer;
 }
 .button {
   width: 160px;
@@ -233,6 +238,13 @@ footer {
   border-radius: 20px;
   box-sizing: border-box;
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconLink {
+  display: flex;
+  width: 40px;
+  height: 40px;
   align-items: center;
   justify-content: center;
 }
