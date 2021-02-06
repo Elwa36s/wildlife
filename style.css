@@ -139,10 +139,10 @@ button:hover {
   text-align: center;
 }
 .buttonInput {
-  width: 120px;
   height: 60px;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
+  border: 1px solid #cd6326;
+  border-radius: 0px 5px 5px 0px;
+  padding: 0;
 }
 .right {
   transform: scaleX(-1);
@@ -183,12 +183,14 @@ h6 {
   margin-top: 59px;
   display: flex;
   flex-direction: row;
+  width: 660px;
+  height: 62px;
 }
 .inputArea {
   border: solid 1px #666666;
   border-right: unset;
-  width: 540px;
-  height: 60px;
+  width: 539px;
+  height: 58px;
   padding: 0 15px;
 }
 input {
